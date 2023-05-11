@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SampleContractForTestBC.sol": "DeployOnMumbaiTestBlockChain"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SampleContractForTestBC.sol": {
+			"keccak256": "0xdfe77e6daf0dd3adb0a34ada4d994623cf158012e0f2843f47cc83cd04291df2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1476400f79558ff9d66f418023bd4d91163007bc9c294f4eefe48d2e5f5d265",
+				"dweb:/ipfs/QmZRL55YSStcnSX3YfhiYu7WLLVL3ZTpTDiSGBczFkU47X"
+			]
+		}
+	},
+	"version": 1
+}

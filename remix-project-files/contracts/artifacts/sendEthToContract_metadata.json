@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateStringWithEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractSendEthToSmartContract.sol": "sendEthToContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractSendEthToSmartContract.sol": {
+			"keccak256": "0xda37883c6795396ee716c122a2453bbdc6334ed3b66561a3b087506cf386a446",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4d305099d68046f0664100f82ca0fa88607bb80bba8b9b6b18f55cd256479434",
+				"dweb:/ipfs/Qme6seLead4ARXpapZUu27C5CkUs6HygYaJtB5MKXiRFoU"
+			]
+		}
+	},
+	"version": 1
+}
