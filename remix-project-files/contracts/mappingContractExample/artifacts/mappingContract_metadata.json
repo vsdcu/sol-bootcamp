@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawAllMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mappingContractExample/mappingContract1.sol": "mappingContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mappingContractExample/mappingContract1.sol": {
+			"keccak256": "0x4af07c68a6310972855f29ad662c4f18d0947911c8f51e2403ad435afa8bbbd2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a13380230a196ae8721266283fd21f2c74ce4124aba69b9f36e32006ff0ad34",
+				"dweb:/ipfs/QmaiAqhvVH7G7vqq8ZZz3Zy3ydSufeogNWjD8hdENwyjmi"
+			]
+		}
+	},
+	"version": 1
+}
