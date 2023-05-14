@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "orderOfDeposits",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "orderOfWithdrawls",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"remix-project-files/contracts/walletWithTransactionTracking.sol/WalletTransactionKeepingExample.sol": "WalletTransactionTracking"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"remix-project-files/contracts/walletWithTransactionTracking.sol/WalletTransactionKeepingExample.sol": {
+			"keccak256": "0x5b52d9d4d59890c33dbc1fde035242f15d2f3690d87b501dafabf4f69699d2e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aaeac2c1627f5418859c2dbeca38278e9daa2b4ed7e750298c3aed9e16f9e822",
+				"dweb:/ipfs/QmekwAemmEwzZEaUGZNNShu1oxNzyy6X1ZwcKw17ARwd9H"
+			]
+		}
+	},
+	"version": 1
+}

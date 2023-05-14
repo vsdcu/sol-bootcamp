@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/myProjectContracts/SampleWallet.sol": "SampleWalletContract"
+			"remix-project-files/contracts/myProjectContracts/SampleWallet.sol": "SampleWalletContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -86,7 +86,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/myProjectContracts/SampleWallet.sol": {
+		"remix-project-files/contracts/myProjectContracts/SampleWallet.sol": {
 			"keccak256": "0x8479a9d00a4b8537bd6ec75cac2bf86a8500c8b312de881cd3979fa495dee83a",
 			"license": "MIT",
 			"urls": [
