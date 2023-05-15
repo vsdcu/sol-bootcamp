@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "throwError",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"remix-project-files/contracts/Exceptions/TryCatchExample.sol": "exampleTryCatch"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"remix-project-files/contracts/Exceptions/TryCatchExample.sol": {
+			"keccak256": "0xfe337baa64ea8beab5f0a3b247f6ba8932ed89cc828ab0cf0b83b3c4658aaf82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e381e682eca7bff2749bff1ef8c89e859dda0baa6a7aee3352a050eb8e8adb7",
+				"dweb:/ipfs/QmSeUFkoxScVDHPJRb7GxL4fePuyN1JSLYK2mo2UM372CB"
+			]
+		}
+	},
+	"version": 1
+}
