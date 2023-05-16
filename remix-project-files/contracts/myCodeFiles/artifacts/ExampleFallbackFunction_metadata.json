@@ -6,8 +6,12 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
-				"name": "myString",
+				"name": "functionCalled",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -19,17 +23,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "lastValue",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_newString",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "updateStringWithEther",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -45,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"remix-project-files/contracts/myProjectContracts/ContractSendEthToSmartContract.sol": "sendEthToContract"
+			"remix-project-files/contracts/myCodeFiles/ExampleFallbackFunction.sol": "ExampleFallbackFunction"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"remix-project-files/contracts/myProjectContracts/ContractSendEthToSmartContract.sol": {
-			"keccak256": "0xda37883c6795396ee716c122a2453bbdc6334ed3b66561a3b087506cf386a446",
+		"remix-project-files/contracts/myCodeFiles/ExampleFallbackFunction.sol": {
+			"keccak256": "0xfc9e1f455091beebae4192deb1963560a78bdbfd832186083521ffe47f39de91",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4d305099d68046f0664100f82ca0fa88607bb80bba8b9b6b18f55cd256479434",
-				"dweb:/ipfs/Qme6seLead4ARXpapZUu27C5CkUs6HygYaJtB5MKXiRFoU"
+				"bzz-raw://a997ca5516291af38e25fcc171b06be597bbb7fe7971bd297e956795fc19f5d1",
+				"dweb:/ipfs/QmfPg8PUNvkKatQh5M63VLVjCASKmDiob8AX68WAHbp1rc"
 			]
 		}
 	},
