@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"remix-project-files/contracts/lowLevelContractInteractions/ExampleSendAndTransfer.sol": "sender"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"remix-project-files/contracts/lowLevelContractInteractions/ExampleSendAndTransfer.sol": {
+			"keccak256": "0xe80e762ae6ff74c18e71fd694a4ad7fc2813d945d2a02e37129e1fa2fd634994",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1586bb419edff3e546c17f09ceaec760fce563bf1f2d5c4858cee93726e48682",
+				"dweb:/ipfs/QmT3hchXE76EjfhmQxMvnyfK7vk5coorLCbfgJgZeJv3mN"
+			]
+		}
+	},
+	"version": 1
+}

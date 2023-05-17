@@ -6,17 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
 				"inputs": [],
-				"name": "functionCalled",
+				"name": "balance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -24,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "lastValue",
+				"name": "getBalanace",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -53,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"remix-project-files/contracts/myCodeFiles/ExampleFallbackFunction.sol": "ExampleFallbackFunction"
+			"remix-project-files/contracts/lowLevelContractInteractions/ExampleSendAndTransfer.sol": "ReceiverAction"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -67,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"remix-project-files/contracts/myCodeFiles/ExampleFallbackFunction.sol": {
-			"keccak256": "0x9fe34fd2e515ebd8747a00e23fc563ab10c22228e979f2adb603d0fbbbea61ce",
+		"remix-project-files/contracts/lowLevelContractInteractions/ExampleSendAndTransfer.sol": {
+			"keccak256": "0x2992224fdd91b1b56f9ea04d955fc69975ae9f1a7d2eebe29ebb9649485dd571",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c8894a787b3ef3da021d707a3842ddde79049fd41fdeb5078b3070d1eda60abc",
-				"dweb:/ipfs/QmWDTcjtmC2iBL4mw7BDhBjuyPyiuywFN4MWbUY6ddub2D"
+				"bzz-raw://abadef5d97bd75b3020f2b7cc1c77a2b95999af733d58ce2ac81fab75a3a8942",
+				"dweb:/ipfs/QmQeUc8ovVQaZz4P8ampDjuhrzpQNN3zMPdS5k87EtAc9U"
 			]
 		}
 	},

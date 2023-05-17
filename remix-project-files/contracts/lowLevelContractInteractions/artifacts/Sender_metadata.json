@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalanace",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawSend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"remix-project-files/contracts/lowLevelContractInteractions/ExampleSendAndTransfer.sol": "Sender"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"remix-project-files/contracts/lowLevelContractInteractions/ExampleSendAndTransfer.sol": {
+			"keccak256": "0x2992224fdd91b1b56f9ea04d955fc69975ae9f1a7d2eebe29ebb9649485dd571",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://abadef5d97bd75b3020f2b7cc1c77a2b95999af733d58ce2ac81fab75a3a8942",
+				"dweb:/ipfs/QmQeUc8ovVQaZz4P8ampDjuhrzpQNN3zMPdS5k87EtAc9U"
+			]
+		}
+	},
+	"version": 1
+}

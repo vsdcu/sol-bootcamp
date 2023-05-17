@@ -8,11 +8,11 @@ contract ExampleFallbackFunction {
 
     string public functionCalled;
 
-    // receive function is needed if ether needs to be send to contract;
+    // receive function is needed if funds needs to be send to contract;
     // but there should not be any call data in this case.
 
     // if you intend to send a call data; fallback function would be needed
-    // gas limit is 2300 wei for fallback and receive functions. (gas stipened)
+    // gas limit is 2300 wei (fixed) for fallback and receive functions. (gas stipened)
 
     receive() external payable {
         lastValue = msg.value;

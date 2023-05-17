@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractOne",
+						"type": "address"
+					}
+				],
+				"name": "depositOnContractOne",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"remix-project-files/contracts/lowLevelContractInteractions/SendMoreGasToAddressBasedOnFallback.sol": "ContractTwo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"remix-project-files/contracts/lowLevelContractInteractions/SendMoreGasToAddressBasedOnFallback.sol": {
+			"keccak256": "0xe555a6ec822bb39ee26f8bb332f087e6d53e6ee10c29ae59c48b46ae8f03b3a6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://59ec99c660404d0aa9679d2f9cf08f3a4533e528319076d2e0cc0cda605dee90",
+				"dweb:/ipfs/QmUswJ9EY8UTkDsJtqMVXTV2CVHRCEZ3TabxQC8AGBQ6WU"
+			]
+		}
+	},
+	"version": 1
+}
