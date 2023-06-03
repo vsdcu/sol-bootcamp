@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -87,11 +87,11 @@
 	},
 	"sources": {
 		"remix-project-files/contracts/myProjectContracts/SampleWallet.sol": {
-			"keccak256": "0x8479a9d00a4b8537bd6ec75cac2bf86a8500c8b312de881cd3979fa495dee83a",
+			"keccak256": "0x02ac0c231ec8936863975bc144a9ae417413e5dfa5c8a282f432fd2a2df891b0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://63cde3a94dc9b87be0d748c2170f4dcb046c04037728c363b19c877f39adb629",
-				"dweb:/ipfs/QmaN7CQDNfrAotTsTwPNLbausoacTKRA4D7nnUHzApwAQ9"
+				"bzz-raw://37a2dca79314422b14d5c926b5369282c1ae3f355de5bf74ed5120d26886691d",
+				"dweb:/ipfs/QmRT1ZxLtLBmyw823fcVEbkhLRtz7KFhZAfF55uw5DDTwT"
 			]
 		}
 	},
