@@ -620,7 +620,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"remix-project-files/contracts/SampleToken/SampleToken.sol": "CofeeToken"
+			"remix-project-files/TokenSale/CoffeeToken.sol": "CofeeToken"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -722,12 +722,12 @@
 				"dweb:/ipfs/QmcEW85JRzvDkQggxiBBLVAasXWdkhEysqypj9EaB6H2g6"
 			]
 		},
-		"remix-project-files/contracts/SampleToken/SampleToken.sol": {
-			"keccak256": "0xe447836780fb3dd5ef3654b0b70865f3feadb87053d35bec77480d6c5780e956",
+		"remix-project-files/TokenSale/CoffeeToken.sol": {
+			"keccak256": "0xaf3947fbaa9780deb4d64771355492e3a6472f1ca640058520dee5f5f1fb20e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://20736309c79738adbfb83211445c14936faad5b43af5b3bf2929058c96caf5d0",
-				"dweb:/ipfs/Qmdgmx2jS1VSc7MHCDnPQ4iNUGiMw4hgLBA9v8QbyvFyac"
+				"bzz-raw://5acc58fede5339e30a552779412b5afc24fa0b75c36974fa15b2fc49ae008975",
+				"dweb:/ipfs/QmRcrMmtrU3RxdSW27EaKCyaU2k7kPp3iKEaKctnFe3QRB"
 			]
 		}
 	},
